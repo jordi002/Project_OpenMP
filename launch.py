@@ -8,9 +8,9 @@
 # You can modify this script to enqueue different executions to the MOORE's system queue.
 import os
 #Path for directories
-pathImages = '../images/'
-pathKernel = '../kernels/'
-pathResult = '../results/'
+pathImages = '/share/apps/files/convolution/images'
+pathKernel = '/home/jgm17/OpenMP/kernels'
+pathResult = '/state/partition1/jgm17'
 partitions = 1
 
 #Initialize the list of files
